@@ -1,0 +1,73 @@
+
+headimage {
+  background-image: url('./dark_planet.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.maintext {
+  background-image: url('./dark_planet.jpg');
+  background-size: 500px;
+  background-attachment: fixed;
+  font-family: "Corsiva";
+  color: white;
+  text-align: center;
+  padding-top:50px;
+  padding-bottom:90px;
+  font-size:60px;
+}
+.blogpost {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Corsiva";
+  color: black;
+  text-align: left;
+  padding-top:20px;
+  font-size:30px;
+}
+.date {
+  margin-left: 240px;
+  margin-right: 200px;
+  font-family: "Corsiva";
+  color: grey;
+  text-align: left;
+  padding-top:8px;
+  font-size:20px;
+}
+.titlepost {
+  margin-left: 240px;
+  margin-right: 200px;
+  font-family: "Corsiva";
+  color: black;
+  text-align: left;
+  padding-top:10px;
+  font-size:20px;
+}
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Garamond";
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
