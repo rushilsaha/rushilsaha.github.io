@@ -1,10 +1,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
 <link href="https://rushilsaha.github.io/feed.xml" rel="self" type="application/atom+xml"/>
-<link href="https://yatian-liu.github.io/" rel="alternate" type="text/html"/>
+<link href="https://rushilsaha.github.io/" rel="alternate" type="text/html"/>
 <updated>2021-01-14T03:15:52+00:00</updated>
 <id>https://rushilsaha.github.io/feed.xml</id>
-<title type="html">Rushil</title>
+<title type="html">Rushil Saha</title>
 <subtitle>Rushil Saha's website</subtitle>
 <entry>
 <title type="html">Week 1</title>
