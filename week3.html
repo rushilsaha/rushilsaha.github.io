@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel='stylesheet' href='css/style.css' />
+    <div class="topnav">
+        <a href="blog.html">Blog</a>
+        <a href="index.html">Home</a>
+    </div>
+    <h1 class = "maintext"> SPQR Research Blog </h1>
+    <h2 class="blogpost"> Week 3: </h2>
+    <h2 class="date"> March 18, 2021 </h2>
+    <h1 class="titlepost"> This week's post will be discussing an attack that uses a phone that is planted near a victim's computer to capture the keystrokes
+      that the victim is using. This technique makes uses of time differences in arrival measurements along with unique acoustic characteristics to record the keystrokes. Such an attack is quite simple to
+      carry out because all it requires is the use of a smartphone that must be placed near one's computer. This would allow for the recording of personal information from the keyboard like sensitive passwords. The paper
+      is titled "Snooping Keystrokes with mm-level Audio Ranging on a Single Phone" and was written by several students at the Stevens Insitute of Technology.
+      <p> <p> The novelty of this attack comes from the fact that this approach is training free. The model does not require labeled training data of the adversary which is often difficult to get. It uses unsupervised
+      algorithms with unlabeled data to classify the keystrokes accurately. The keystrokes are differentiated by using the time difference of arrival between two microphones that most smart phones have. These estimates are
+    not always accurate so the estimates of which key is being pressed are improved by using acoustic differences in the sound that each key makes. The time difference of arrival measurement reveals info about the direction
+  of the sound that the key is making which can then be used to calculate which key is being pressed with calculations making use of the distance between the two microphones and the distance from the key to the microphones.
+   <p> <p> The attack's accuracy is affected by several different factors like the sampling rate, the distance between the two mics on the phone, and the actual placement of the smartphone in the proximity of the laptop. The system was able
+      to recover 94% of keystrokes which is quite impressive. Part of how impressive this attack is the amount of information that is recovered with just the two microphones on a phone. Most attacks of this nature require at
+      least three microphones to accurately recover the position that the sound is coming from. I am interested in seeing similar attacks that are able to recover keystrokes because the idea of locating the specific location of keys is
+      quite fascinating. </h1>
+
+</body>
+</html>
