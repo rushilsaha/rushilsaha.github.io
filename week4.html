@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel='stylesheet' href='css/style.css' />
+    <div class="topnav">
+        <a href="blog.html">Blog</a>
+        <a href="index.html">Home</a>
+    </div>
+    <h1 class = "maintext"> SPQR Research Blog </h1>
+    <h2 class="blogpost"> Week 4: </h2>
+    <h2 class="date"> March 26, 2021 </h2>
+    <h1 class="titlepost"> This week's post will be on phantom attacks on driver assistance systems. Such an attack would manipulate the systems of autonomous/semi autonomous cars so that
+      they would recognize objects that shouldn't be recognized. This could cause the system to wrongly press the brakes, steer into the wrong lane, and register road signs that aren't actually there. With the emergence of autonomous systems with cars
+      like the Tesla, this issue is one that is especially pertinent to today's technology and one that will have to be resolved to ensure driver safety in the future. The paper is titled "Phantom Attacks on Driver-Assistance Systems" and was written by several
+    students at the Ben-Gurion University of the Negev and Georgia Tech.
+     <p> <p> The attack works by forcing depth less objects or phantoms to be recognized as real. It makes uses of the perception gap which is the inability of autonomous cars to check their virtual perception with a third party to make
+     sure that the things that it is seeing are actually there. The attack would be implemented in two ways which are using a drone with a portable projector to project the phantom and hacking a digital billboard to place the phantoms. This attack was successfully
+   demonstrated on a Tesla Model X by projecting a phantom of a person which caused the car to apply the brakes and a phantom of a lane which made it move towards a lane of oncoming traffic. They were also able to find a viable solution to prevent this attack
+   which they did by training a convolutional neural network on the output of a video camera to recognize such attacks.
+   <p> <p> An interesting sidenote to this paper is the response of Tesla to the results of this paper. They concluded that there was no issue with their technology and dismissed the results of this paper. Because these attacks do not take advantage
+   of any bug, they do not appear to be of importance to the engineering team. Still, it is important that such issues are addressed properly because the advent of autonomous technology will certain introduce a wide array of security flaws. </h1>
+
+</body>
+</html>
